@@ -38,10 +38,12 @@
                     </thead>
                     <tbody>
                         <?php $no = 1; ?>
+                        <!-- di reslut di sini -->
                         <?php foreach ($rows->result() as $row => $data) : ?>
                             <tr>
 
                                 <td><?= $no++; ?></td>
+                                <!-- pemanggilannya seperti di bawah ini, tidak berbentuk array  -->
                                 <td><?= $data->nama_crud; ?></td>
                                 <td><?= $data->nohp_crud; ?></td>
                                 <td>
