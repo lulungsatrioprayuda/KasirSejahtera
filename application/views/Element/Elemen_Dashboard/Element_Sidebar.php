@@ -63,6 +63,13 @@
                 <?php endforeach; ?>
                 <!-- batas akhir looping menu -->
 
+                <li class="header">CRUD</li>
+                <li>
+                    <a href="<?= base_url('Crud'); ?>">
+                        <i class="fa fa-book"></i> <span>CRUD basic</span>
+                    </a>
+                </li>
+
                 <li class="header">Option</li>
 
 
